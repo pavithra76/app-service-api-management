@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RealworldApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Real World");
 		SpringApplication.run(RealworldApplication.class, args);
 	}
 }
